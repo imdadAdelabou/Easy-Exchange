@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8" />
     <title>Bienvenue à Easy-Exchange</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./assets/css/index.css" />
     <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
 </head>
 
 <body>
     <div id="app">
-        <p>{{ test }}</p>
+        <coin-component :imageCoin='image' :indice="indice" :price="price" :progress="progress" name="Bitcoin"></coin-component>
     </div>
     <script src="./main.js"></script>
+    <script src="./components/CoinComponent.js"></script>
     <script>
         const mountedApp = app.mount('#app')
     </script>

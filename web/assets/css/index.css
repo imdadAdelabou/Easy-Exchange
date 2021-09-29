@@ -1,0 +1,47 @@
+.containerCoin {
+    display: flex;
+    max-width: 300px;
+    height: 70px;
+    background-color: black;
+    border-radius: 18px;
+}
+
+.containerCoin img {
+    width: 20%;
+    margin: 4px;
+}
+
+.containerCoin h4 {
+    margin: 0;
+    color: white;
+}
+
+.containerCoin h6 {
+    margin: 0;
+    color: white;
+    opacity: 0.7;
+    padding-top: 4px;
+}
+
+.containerCoin .leftElement {
+    margin: 18px 35% 4px 0;
+}
+
+.material-icons {
+    align-items: center;
+    color: red;
+}
+
+.containerCoin span {
+    color: white;
+    margin-top: 4px;
+    font-size: 10px;
+}
+
+.containerCoin .rightContent {
+    display: flex;
+}
+
+.containerCoin .rightElement {
+    margin-top: 18px;
+}
