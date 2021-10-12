@@ -11,9 +11,11 @@
 <body>
     <div id="app">
         <coin-component :imageCoin='image' :indice="indice" :price="price" :progress="progress" name="Bitcoin"></coin-component>
+        <exchange-view></exchange-view>
     </div>
     <script src="./main.js"></script>
     <script src="./components/CoinComponent.js"></script>
+    <script src="./views/ExchangeView.js"></script>
     <script>
         const mountedApp = app.mount('#app')
     </script>
